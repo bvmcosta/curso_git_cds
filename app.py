@@ -7,6 +7,14 @@ def load_data():
 
     return pd.read_csv('data/processed/bikes_completed.csv')
 
-df = load_data()
+def main():
 
-print(df)
+    df = load_data()
+
+    print(df)
+
+
+if __name__ == '__main__':
+
+    main()
+
