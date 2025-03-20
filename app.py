@@ -68,8 +68,6 @@ def main():
     create_answers_section(df_raw)
 
     st.dataframe(df_raw)
-
-    
     
 if __name__ == '__main__':
 
