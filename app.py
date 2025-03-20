@@ -53,7 +53,7 @@ def create_answers_section(df):
 
 def main():
 
-<<<<<<< HEAD
+
     df = load_data()
 
     create_dataframe_section(df)
