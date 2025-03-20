@@ -53,10 +53,13 @@ def create_answers_section(df):
 
 def main():
 
-    df_raw = load_data()
-    create_dataframe_section(df_raw)
-    create_answers_section(df_raw)
-    st.dataframe(df_raw)
+    df_raw2 = load_data()
+    
+    create_dataframe_section(df_raw2)
+    
+    create_answers_section(df_raw2)
+    
+    st.dataframe(df_raw2)
     
 if __name__ == '__main__':
 
